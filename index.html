@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Channel Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .search-container {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+        li {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        li:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <h1>Channel Search</h1>
+        <input type="text" id="searchInput" placeholder="Search for channels..." />
+        <ul id="channelList"></ul>
+    </div>
+
+    <script>
+        let channels = []; // Declare channels globally so it's accessible
+
+        // Fetch channels from the TXT file
+        fetch('superbox.txt')
+            .then(response => response.text())
+            .then(data => {
+                // Populate the channels array with the contents of the file
+                channels = data.split('\n').map(line => line.trim());
+                // Display all channels initially
+                updateChannelList('');
+            })
+            .catch(error => console.error('Error loading channels:', error));
+
+        // References to DOM elements
+        const searchInput = document.getElementById('searchInput');
+        const channelList = document.getElementById('channelList');
+
+        // Function to update the channel list based on the search query
+        function updateChannelList(query) {
+            // Clear the current list
+            channelList.innerHTML = '';
+
+            // Filter channels based on the query (case-insensitive)
+            const filteredChannels = channels.filter(channel =>
+                channel.toLowerCase().includes(query.toLowerCase())
+            );
+
+            // Display filtered channels
+            filteredChannels.forEach(channel => {
+                const listItem = document.createElement('li');
+                listItem.textContent = channel;
+                channelList.appendChild(listItem);
+            });
+        }
+
+        // Event listener for input changes
+        searchInput.addEventListener('input', (event) => {
+            updateChannelList(event.target.value);
+        });
+    </script>
+</body>
+</html>

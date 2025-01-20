@@ -1,0 +1,99 @@
+1 A&E
+2 ABC News
+3 ABC WEST
+4 AMC
+5 American Heroes Channel
+6 ANIMAL PLANET WEST
+7 Animal Planet
+8 ANTENNA TV
+9 AXS TV
+10 ABC EAST
+11 AWE
+12 BBC AMERICA
+13 BBC World News
+14 BET
+15 Boomerang
+16 Bravo
+17 Cartoon Network East
+18 Cartoon Network West
+19 CBS EAST
+20 CBS WEST
+21 Cheddar Business
+22 Cheddar News
+23 CINE SONY
+24 CINEMAX 5STAR MAX
+25 CINEMAX ACTIONMAX
+26 Cinemax East
+27 CINEMAX MORE MAX
+28 CINEMAX OUTERMAX
+29 CINEMAX THRILLERMAX
+30 NBC Idaho Falls (KPVI)
+31 Cleo TV
+32 CMT
+33 CNBC World
+34 UP TV
+35 CNBC
+36 CNN en Español
+37 CNN International
+38 CNN
+39 COMEDY CENTRAL
+40 Comet
+41 Cooking Channel
+42 COZI TV
+43 C-SPAN 2
+44 C-SPAN 3
+45 C-SPAN
+46 Destination America
+47 DISCOVERY CHANNEL WEST
+48 DISCOVERY CHANNEL
+49 Discovery en Espanol HD
+50 AMC Plus
+51 DISCOVERY FAMILY
+52 Discovery Life Channel
+53 DISCOVERY SCIENCE
+54 Discovery
+55 DISNEY CHANNEL WEST
+56 Disney Channel
+57 DISNEY JR WEST
+58 DISNEY JR
+59 Disney Junior
+60 Disney XD
+61 DIY Network
+62 DOG TV
+63 E! East
+64 E! West
+65 EL REY NETWORK
+66 EPIX 2
+67 EPIX Hits
+68 Epix
+69 Gravitas Movies
+70 Food Network
+71 FOX Business Network
+72 FOX EAST
+73 Fox Soul
+74 FOX News Channel
+75 FOX WEST
+76 Freeform
+77 FUSE
+78 Fusion
+79 FX East
+80 FX MOVIE
+81 FXM
+82 FXX East
+83 FYI
+84 GAME SHOW NETWORK
+85 BBC News
+86 Hallmark Channel
+87 Hallmark Drama
+88 Hallmark Movies
+89 HBO 2
+90 HBO COMEDY
+91 HBO East
+92 HBO FAMILY
+93 HBO SIGNATURE
+94 HBO West
+95 HGTV East
+96 HGTV WEST
+97 HISTORY
+98 HLN
+99 IFC
